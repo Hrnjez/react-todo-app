@@ -8,7 +8,7 @@ const Header = ({ title, onAdd, showAdd }) => {
     return (
         <header className='header'>
             <h1 style={{color: '#11998e'}}>{title}</h1>
-            {location.pathname === '/' && (<Button text={showAdd ? 'Close' : 'Add'} onClick={onAdd}/>)}
+            {location.pathname === '/react-todo-app' && (<Button text={showAdd ? 'Close' : 'Add'} onClick={onAdd}/>)}
         </header>
     )
 }
