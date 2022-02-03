@@ -5,7 +5,7 @@ import Tasks from './components/Tasks';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom'
 import AddTask from './components/AddTask';
-// test
+
 function App() {
   const [showAddTask, setShowAddTask] = useState(true)
   const [tasks, setTasks] = useState([])
